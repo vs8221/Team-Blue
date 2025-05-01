@@ -2,7 +2,7 @@ Team Member Management App
 
 A full-stack application for adding, viewing, and managing team members with Node.js, Express, MongoDB on the backend, and React.js on the frontend.
 
-Project Description
+📘Project Description
 
 This project allows users to:
 
@@ -14,7 +14,7 @@ View detailed information for each member by clicking "View Details."
 
 The backend uses Node.js, Express, Multer for file uploads, and MongoDB (via Mongoose) to store member data. The frontend is built with React.js and Axios for API communication.
 
-Installation Steps
+⚙️Installation Steps
 
 1)Clone the repository
 
