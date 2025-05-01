@@ -1,0 +1,75 @@
+/* Full-page container */
+.add-member-container {
+    background-color: white;
+    min-height: 100vh;
+    padding: 2rem;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  /* Page title */
+  .add-member-title {
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    background-color: #11357e;
+    padding: 1rem;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+  }
+  
+  /* Form container */
+  .add-member-form {
+    background-color: #f9f9f9;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 700px; /* Increased width for long fields */
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  
+  /* Unified style for all inputs and textareas */
+  .add-member-form input,
+  .add-member-form textarea {
+    width: 100%;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-family: 'Segoe UI', sans-serif;
+    box-sizing: border-box;
+    background-color: #fff;
+  }
+  
+  /* Allow textareas to expand */
+  .add-member-form textarea {
+    min-height: 120px;
+    resize: vertical;
+  }
+  
+  /* File input */
+  .add-member-form input[type="file"] {
+    padding: 0.5rem 0;
+  }
+  
+  /* Submit button */
+  .submit-btn {
+    display: block;
+    width: 100%;
+    padding: 0.75rem;
+    background-color: #11357e;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .submit-btn:hover {
+    background-color: #0d2e6a;
+  }
+  

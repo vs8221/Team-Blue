@@ -1,0 +1,74 @@
+/* MemberDetail.css */
+
+/* Global styling */
+.detail-container {
+    background-color: #fff; /* White background */
+    min-height: 100vh;
+    padding: 2rem;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+    color: #333; /* Dark text color for contrast */
+  }
+  
+  /* Back button */
+  .back-btn {
+    background: none;
+    border: none;
+    color: #11357e;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-bottom: 1rem;
+  }
+  
+  .back-btn:hover {
+    text-decoration: underline;
+  }
+  
+  /* Card for member details */
+  .detail-card {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #ffffff; /* White background for the card */
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  /* Title */
+  .detail-title {
+    color: #11357e; /* Blue color for title */
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  /* Profile image */
+  .detail-image {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+  }
+  
+  /* Name */
+  .detail-name {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 1rem;
+  }
+  
+  /* Labels */
+  .label {
+    font-weight: 600;
+    color: #11357e; /* Blue color for labels */
+  }
+  
+  /* Loading text */
+  .loading {
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 1.2rem;
+    color: #666;
+  }
+  

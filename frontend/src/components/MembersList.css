@@ -1,0 +1,70 @@
+/* MembersList.css */
+.members-container {
+    background-color: white; /* white page background */
+    min-height: 100vh;
+    padding: 2rem;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+    color: #333;
+  }
+  
+  .members-title {
+    text-align: center;
+    font-size: 2rem;
+    color: #11357e; /* blue title */
+    margin-bottom: 1.5rem;
+  }
+  
+  .members-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+  }
+  
+  .member-card {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    width: 250px;
+    padding: 1rem;
+    text-align: center;
+    box-sizing: border-box;
+  }
+  
+  .member-image {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 4px;
+    margin-bottom: 0.75rem;
+  }
+  
+  .member-name {
+    font-size: 1.25rem;
+    color: #333;
+    margin: 0.5rem 0;
+  }
+  
+  .member-role {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 1rem;
+  }
+  
+  .detail-btn {
+    background-color: #11357e;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .detail-btn:hover {
+    background-color: #0d2e6a;
+  }
+  
