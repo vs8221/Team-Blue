@@ -16,17 +16,17 @@ The backend uses Node.js, Express, Multer for file uploads, and MongoDB (via Mon
 
 Installation Steps
 
-Clone the repository
+1)Clone the repository
 
 git clone <repository-url>
 cd <repo-folder>
 
-Backend Setup
+2)Backend Setup
 
 cd backend
 npm install
 
-Frontend Setup
+3)Frontend Setup
 
 cd ../frontend
 npm install
@@ -35,29 +35,24 @@ API Endpoints
 
 All backend routes are prefixed with /api/members.
 
-Method
 
-Endpoint
+Method - POST
 
-Description
+API Endpoints - /api/members
 
-POST
+Description - Add a new member (multipart/form-data)
 
-/api/members
+Method - GET
 
-Add a new member (multipart/form-data)
+API Endpoints - /api/members
 
-GET
+Description - Get all members
 
-/api/members
+Method - GET
 
-Get all members
+API Endpoints - /api/members/:identifier
 
-GET
-
-/api/members/:identifier
-
-Get single member by MongoDB _id or rollNumber (depending on your routing setup)
+Description - Get single member by MongoDB _id or rollNumber (depending on your routing setup)
 
 Example Request
 
